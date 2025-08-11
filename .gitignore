@@ -46,6 +46,7 @@ gradle.properties
 out/
 .idea_modules/
 *.eml
+bank-config.iml
 .history/
 
 ### --- Системные файлы ---
