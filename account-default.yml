@@ -17,6 +17,7 @@ spring:
     encoding: UTF-8
   liquibase:
     change-log: classpath:/db/changelog/rootChangeLog.xml
+    liquibase-schema: public
     default-schema: account
     parameters:
       schemaName: account
