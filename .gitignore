@@ -31,6 +31,7 @@ build/
 gradle.properties
 
 ### --- IDE ---
+.idea
 .idea/
 *.iml
 *.ipr
@@ -45,6 +46,7 @@ gradle.properties
 out/
 .idea_modules/
 *.eml
+bank-config.iml
 .history/
 
 ### --- Системные файлы ---
