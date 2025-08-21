@@ -13,6 +13,18 @@ spring:
                 - Path=/account/**
               filters:
                 - StripPrefix=1
+            - id: transfer
+              uri: lb://transfer
+              predicates:
+                - Path=/transfer/**
+              filters:
+                - StripPrefix=1
+            - id: exchange
+              uri: lb://exchange
+              predicates:
+                - Path=/exchange/**
+              filters:
+                - StripPrefix=1
 eureka:
   client:
     serviceUrl:
