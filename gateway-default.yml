@@ -25,6 +25,12 @@ spring:
                 - Path=/exchange/**
               filters:
                 - StripPrefix=1
+            - id: cash
+              uri: lb://cash
+              predicates:
+                - Path=/cash/**
+              filters:
+                - StripPrefix=1
 eureka:
   client:
     serviceUrl:
