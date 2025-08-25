@@ -1,5 +1,5 @@
 server:
-  port: 1018
+  port: 1019
 
 spring:
 management:
