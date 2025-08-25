@@ -37,6 +37,12 @@ spring:
                 - Path=/notification/**
               filters:
                 - StripPrefix=1
+            - id: blocker
+              uri: lb://blocker
+              predicates:
+                - Path=/blocker/**
+              filters:
+                - StripPrefix=1
 eureka:
   client:
     serviceUrl:
