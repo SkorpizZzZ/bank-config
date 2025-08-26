@@ -2,18 +2,6 @@ server:
   port: 1019
 
 spring:
-management:
-  endpoint:
-    health:
-      probes:
-        enabled: true
-      show-details: always
-    liquibase:
-      access: read_only
-  endpoints:
-    web:
-      exposure:
-        include: "*"
   security:
     oauth2:
       client:
@@ -29,6 +17,18 @@ management:
             scope:
               - profile
             client-authentication-method: client_secret_post
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always
+    liquibase:
+      access: read_only
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 logging:
   level:
     org.springframework.web: DEBUG
