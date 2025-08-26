@@ -8,7 +8,7 @@ spring:
           keycloak:
             issuer-uri: http://localhost:8888/realms/bankapp
         registration:
-          yandex-store:
+          bankapp:
             provider: keycloak
             authorization-grant-type: client_credentials
             client-id: bankapp
