@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5438/bank?currentSchema=notification
-    username: yandex
-    password: yandex
+    url: jdbc:postgresql://localhost:5432/bank?currentSchema=notification
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
@@ -23,9 +23,9 @@ spring:
     parameters:
       schemaName: notification
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5438/bank?currentSchema=notification
-    user: yandex
-    password: yandex
+    url: jdbc:postgresql://localhost:5432/bank?currentSchema=notification
+    user: postgres
+    password: postgres
   security:
     oauth2:
       client:

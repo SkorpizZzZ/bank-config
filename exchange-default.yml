@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5438/bank?currentSchema=exchange
-    username: yandex
-    password: yandex
+    url: jdbc:postgresql://localhost:5432/bank?currentSchema=exchange
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -22,9 +22,9 @@ spring:
     parameters:
       schemaName: exchange
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5438/bank?currentSchema=exchange
-    user: yandex
-    password: yandex
+    url: jdbc:postgresql://localhost:5432/bank?currentSchema=exchange
+    user: postgres
+    password: postgres
   security:
     oauth2:
       client:
