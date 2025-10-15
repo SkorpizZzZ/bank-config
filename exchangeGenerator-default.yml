@@ -31,7 +31,6 @@ management:
         include: "*"
 logging:
   level:
-    org.springframework.web: DEBUG
     org.example: DEBUG
     liquibase: INFO
 

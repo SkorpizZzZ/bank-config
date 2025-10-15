@@ -23,6 +23,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 logging:
   level:
-    org.springframework.web: DEBUG
     org.springframework.cloud.netflix.eureka: INFO
     org.example: DEBUG
