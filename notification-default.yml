@@ -46,7 +46,7 @@ spring:
     consumer:
       group-id: bankapp
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.JsonDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
 management:
   endpoint:
     health:
