@@ -65,7 +65,7 @@ management:
         include: "*"
 logging:
   level:
-    org.company.account: DEBUG
+    org.company: DEBUG
     liquibase: INFO
 
 eureka:
